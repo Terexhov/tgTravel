@@ -1,0 +1,6 @@
+aiogram
+requests
+aiohttp
+python-dotenv
+mistralai
+duckduckgo-search 
