@@ -17,11 +17,9 @@ load_dotenv()
 
 # --- Токены напрямую в коде (НЕБЕЗОПАСНО для публичного репозитория) ---
 TG_BOT_TOKEN = os.getenv("TG_BOT_TOKEN")
-AVIASALES_TOKEN = "a657bbd62fab8b942f8d904f22bd426e"
 
 logging.basicConfig(level=logging.INFO)
 
-print("TG_BOT_TOKEN:", TG_BOT_TOKEN)
 
 class TravelForm(StatesGroup):
     vacation_type = State()
