@@ -1,6 +1,4 @@
-aiogram
-requests
+aiogram>=3.0
 aiohttp
+openai
 python-dotenv
-mistralai
-duckduckgo-search 
