@@ -1,4 +1,5 @@
 aiogram>=3.0
 aiohttp
-openai
+anthropic
 python-dotenv
+redis>=4.5.0
